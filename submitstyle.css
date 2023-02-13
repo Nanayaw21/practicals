@@ -1,0 +1,54 @@
+:root{
+    --orange: hsl(25, 97%, 53%);
+    --White: hsl(0, 0%, 100%);
+--LightGrey: hsl(217, 12%, 63%);
+--MediumGrey: hsl(216, 12%, 54%);
+--DarkBlue: hsl(213, 19%, 18%);
+--VeryDarkBlue: hsl(216, 12%, 8%);
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Overpass';
+}
+body{
+    background-color: var(--VeryDarkBlue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background-color: var(--DarkBlue);
+    border-radius: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+div img{
+    width: 35%;
+    margin: 3rem 0 1.3rem 0 ;
+}
+div h4{
+    background-color: var(--LightGrey);
+    padding: 2px;
+    width: 50%;
+    margin-left: 6rem;
+    border-radius: 12px;
+    border: none;
+    color: var(--orange);
+    font-weight: 400;
+    margin-bottom: 2rem;
+    font-size: 15px;
+
+}
+div h2{
+    color: var(--White);
+    font-weight: 500;
+}
+div p{
+    color: var(--LightGrey);
+    padding: 2rem;
+    margin-top: -1rem;
+    margin-bottom: 1.5rem;
+}

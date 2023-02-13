@@ -1,0 +1,93 @@
+:root{
+    --orange: hsl(25, 97%, 53%);
+    --White: hsl(0, 0%, 100%);
+--LightGrey: hsl(217, 12%, 63%);
+--MediumGrey: hsl(216, 12%, 54%);
+--DarkBlue: hsl(213, 19%, 18%);
+--VeryDarkBlue: hsl(216, 12%, 8%);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+   font-family: Overpass;
+   
+}
+body{
+    background-color: var(--VeryDarkBlue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    background-color: var(--DarkBlue);
+    border-radius: 20px;
+    width: 25%;
+    
+}
+div img{
+    width: 4%;
+    background-color: var(--MediumGrey);
+    padding: .7rem;
+    border-radius: 50px;
+    border: none;
+    margin: 2rem 3rem 2rem 2rem;
+    }
+    div h2{
+        color: var(--White);
+        font-weight: 350;
+        margin-left: 2rem;
+        line-height: .8px;
+    }
+    div p{
+        color: var(--LightGrey);
+        padding: 2rem;
+        font-size: 15px;
+    }
+    .btn{
+        margin: 0 0 1rem 2rem;
+    }
+    .btn input{
+        padding: .7rem;
+        border-radius: 50%;
+        width: 12%;
+        text-align: center;
+        border: none;
+        background-color: var(--MediumGrey);
+        color: var(--LightGrey);
+        font-weight: bold;
+        margin: 0 1.3rem 0 0;
+        height: 45px;
+        cursor: pointer;
+    }
+
+    .submit{
+        margin: 0 0 2rem 2rem;
+    }
+    .submit input{
+        font-size: 15px;
+        text-transform: uppercase;
+        background-color: var(--orange);
+        color: var(--White);
+        width: 90%;
+        padding: 1rem;
+        border-radius: 100px;
+        border: none;
+        margin-top: 1rem;
+        cursor: pointer;
+    }
+    .submit input:hover{
+        background-color: var(--White);
+        color: var(--orange);
+    }
+    .btn input:hover{
+        background-color: var(--orange);
+        color: var(--White);
+    }
+    .btn input:active{
+        background-color: var(--LightGrey);
+    }
+
+
